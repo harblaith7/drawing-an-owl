@@ -1,11 +1,11 @@
 import React from 'react';
-import Booth from "./component/Booth/Booth"
+import WebCam from "./component/WebCam/WebCam"
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-        <Booth/>
+        <WebCam/>
     </div>
   );
 }
