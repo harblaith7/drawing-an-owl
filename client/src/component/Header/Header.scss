@@ -1,0 +1,86 @@
+.Header {
+
+    height: 92.5vh;
+    background-color: rgb(222,222,222);
+    font-family: "Lato";
+
+    &__container {
+        height: 100%;
+        display: flex;
+        width: 100%
+    }
+
+    &__img-container { 
+       width: 40%;
+    }
+
+    &__text-container {
+        width: 60%;
+        position: relative;
+    
+    }
+
+    &__text-content-container {
+        width: 90%;
+        height: 75%;
+        transform: translate(-50%, -50%);
+        color: rgb(45,53,55);
+      
+        top: 50%;
+        left: 50%;
+        position: absolute;
+    }
+
+    &__heading {
+        font-size: 9rem;
+        margin-right: 5rem;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &__logo {
+        width: 35rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    &__sub-heading {
+        font-size: 6rem;
+        margin-top: 2rem;
+        font-weight: 400;
+
+        & span {
+            font-weight: 700;
+        }
+
+        & .yellow {
+            color: rgb(201, 175, 29);
+            font-weight: 400;
+            text-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.315);
+        }
+
+    }
+
+    &__image {
+        width: 33rem;
+
+        &--andrew-side {
+            width: 29.5rem;
+            margin-left: -15.5rem;
+        }
+    }
+
+    &__btn {
+        margin-top: 4rem;
+        padding: 1.5rem 2rem;
+        width: 50%;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        cursor: pointer;
+        background-color: transparent;
+        border: .15rem solid rgba(0, 0, 0, 0.527);
+        color: rgba(0, 0, 0, 0.774)
+    }
+
+}
