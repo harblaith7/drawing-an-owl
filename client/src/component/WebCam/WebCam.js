@@ -42,7 +42,11 @@ class WebCam extends Component {
             videoConstraints={videoConstraints}
           />
           <button className="WebCam__btn" onClick={this.capture}>Become the Owl</button>
-          <img src={this.state.imageSrc} alt="" className="WebCam__img"/>
+          
+          <img 
+            src={`${this.state.imageSrc || "https://www.freywine.com/assets/client/Image/Blog/frey-blog-180612-great-horned-owl.jpg"} `}
+             alt="" className="WebCam__img"
+          />
         </div> 
       </div>
     );

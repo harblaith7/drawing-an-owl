@@ -4,6 +4,7 @@ import Header from "../../component/Header/Header"
 import Intro from "../../component/Intro/Intro"
 import Owlifier from "../../component/Owlifier/Owlifier"
 import WebCam from "../../component/WebCam/WebCam"
+import Results from "../../component/Results/Results"
 
 class LandingPage extends Component {
     render() {
@@ -13,6 +14,7 @@ class LandingPage extends Component {
                 <Intro/>
                 <Owlifier/>
                 <WebCam/>
+                <Results/>
             </div>
         );
     }

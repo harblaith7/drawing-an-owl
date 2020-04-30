@@ -1,9 +1,13 @@
 .Owlifier {
 
+    background-color: rgb(222,222,222);
+    padding: 5rem 0;
+
     &__container {
         width: 85%;
         margin: 3rem auto;
         font-family: "Lato";
+        
     }
 
     &__heading {

@@ -1,0 +1,71 @@
+.Results {
+
+    &__container {
+        width: 85%;
+        font-family: "Lato";
+        margin: 10rem auto;
+
+    }
+
+    &__heading {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    &__sub-heading {
+        font-size: 3.5rem;
+        width: 40%;
+        margin: 3rem auto;
+        line-height: 5rem;
+
+    }
+
+    
+    &__description {
+        margin-top: 2rem;
+        font-size: 2rem;
+        width: 100%;
+        line-height: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    &__results-container {
+        text-align: center; 
+        
+    }
+
+    &__text-container {
+        width: 60%;
+        margin: 0 auto;
+
+        & a {
+            padding: 1.25rem 7.5rem;
+            cursor: pointer;
+            background-color: transparent;
+            outline: none;
+            border: 0.1rem solid rgb(27, 27, 27);
+            color: rgb(27, 27, 27);
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 1.5rem;
+            margin-top: 10.5rem;
+        }
+    }
+
+    &__drawing-container {
+        margin-top: 15rem;
+        display: none;
+        padding-top: 2rem;
+
+        &--visible {
+            display: block;
+        }
+    }
+
+    &__img {
+        width: 40rem
+    }
+
+}
