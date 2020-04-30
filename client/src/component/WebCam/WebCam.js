@@ -1,6 +1,6 @@
 
 import Webcam from "react-webcam";
-
+import "./WebCam.scss"
 import React, { Component } from 'react';
 
 class WebCam extends Component {
@@ -31,17 +31,19 @@ class WebCam extends Component {
     };
 
     return (
-      <div>
-        <Webcam
-          audio={false}
-          height={350}
-          ref={this.setRef}
-          screenshotFormat="image/jpeg"
-          width={350}
-          videoConstraints={videoConstraints}
-        />
-        <button onClick={this.capture}>Capture photo</button>
-        <img src={this.state.imageSrc} alt=""/>
+      <div className="WebCam">
+        <div className="WebCam__container">
+          <Webcam
+            audio={false}
+            height={550}
+            ref={this.setRef}
+            screenshotFormat="image/jpeg"
+            width={550}
+            videoConstraints={videoConstraints}
+          />
+          <button className="WebCam__btn" onClick={this.capture}>Become the Owl</button>
+          <img src={this.state.imageSrc} alt="" className="WebCam__img"/>
+        </div> 
       </div>
     );
   }

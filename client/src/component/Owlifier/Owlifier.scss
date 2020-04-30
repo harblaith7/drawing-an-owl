@@ -1,0 +1,20 @@
+.Owlifier {
+
+    &__container {
+        width: 85%;
+        margin: 3rem auto;
+        font-family: "Lato";
+    }
+
+    &__heading {
+        font-size: 4rem;
+    }
+
+    &__description {
+        margin-top: 2rem;
+        font-size: 2rem;
+        width: 85%;
+        line-height: 3.5rem;
+    }
+
+}

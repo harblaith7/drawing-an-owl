@@ -19,6 +19,9 @@ class Header extends Component {
                             <button className="Header__btn">
                                 Check it out
                             </button>
+                            <button className="Header__btn">
+                                About Us
+                            </button>
                         </div>
                     </div>
                     <div className="Header__img-container">

@@ -73,14 +73,15 @@
     &__btn {
         margin-top: 4rem;
         padding: 1.5rem 2rem;
-        width: 50%;
+        width: 27.5%;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
         cursor: pointer;
         background-color: transparent;
         border: .15rem solid rgba(0, 0, 0, 0.527);
-        color: rgba(0, 0, 0, 0.774)
+        color: rgba(0, 0, 0, 0.774);
+        margin-right: 3rem;
     }
 
 }
