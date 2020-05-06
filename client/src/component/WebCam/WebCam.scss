@@ -3,33 +3,45 @@
 .WebCam {
 
     &__container {
-        width: 85%;
+        width: 100%;
         margin: 0 auto;
-
         display: flex;
-        height: 50rem;
         align-self: center;
-        justify-content: space-between;
+        justify-content: center;
         position: relative;
+        flex-direction: column;
     }
 
     &__img {
         height: 41.5rem;
-        margin-top: 6.5rem;
+
         width: 55rem;
-        
+        margin: 0 auto;
+        margin-top: 6.5rem;
     }
 
     &__btn {
-        width: 10rem;
-        height: 10rem;
+        width: 12.5rem;
+        height: 12.5rem;
         margin: auto;
         border-radius: 100%;
         cursor: pointer;
         outline: none;
         font-weight: 700;
         letter-spacing: 0.1rem;
-        padding: 0.5rem
+        padding: 0.5rem;
+        border: 0.15rem solid grey;
+        background-color: transparent;
+        transition: 1s;
+
+        &:hover {
+            background-color: grey;
+        }
+    }
+
+    &__camera-container {
+        display: flex;
+        justify-content: center;
     }
 
 }

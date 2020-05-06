@@ -1,3 +1,5 @@
+@import "../../sass/mixins.scss";
+
 .Intro {
     font-family: "Lato";
 
@@ -23,4 +25,41 @@
         justify-content: flex-end;
     }
 
+    &__video {
+        width: 80rem;
+        height: 40rem
+    }
+
+}
+
+@include width-1200px {
+    .Intro {
+        &__text-container {
+            & p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@include width-1000px {
+    .Intro {
+        &__text-container {
+            & p {
+                font-size: 2rem;
+            }
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        &__container {
+            flex-direction: column;
+        }
+        &__video-container {
+            width: 75%;
+            margin: 0 auto;
+        }
+        &__video {
+            width: 100%
+        }
+    }
 }

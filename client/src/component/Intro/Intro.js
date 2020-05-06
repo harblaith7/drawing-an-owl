@@ -22,7 +22,7 @@ export default class Intro extends Component {
                        
                     </div>
                     <div className="Intro__video-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xQ0OB5tGyB8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className="Intro__video" width="560" height="315" src="https://www.youtube.com/embed/xQ0OB5tGyB8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>

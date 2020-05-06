@@ -1,3 +1,5 @@
+@import "../../sass/mixins.scss";
+
 .Header {
 
     height: 92.5vh;
@@ -17,7 +19,6 @@
     &__text-container {
         width: 60%;
         position: relative;
-    
     }
 
     &__text-content-container {
@@ -73,7 +74,7 @@
     &__btn {
         margin-top: 4rem;
         padding: 1.5rem 2rem;
-        width: 27.5%;
+        width: 20rem;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
@@ -82,6 +83,80 @@
         border: .15rem solid rgba(0, 0, 0, 0.527);
         color: rgba(0, 0, 0, 0.774);
         margin-right: 3rem;
+        
     }
 
+}
+
+
+@include width-1200px {
+    .Header {
+
+        &__img-container {
+            width: 55rem
+        }
+
+    }
+}
+
+@include width-1000px {
+    .Header {
+
+        &__heading {
+            font-size: 6rem;    
+        }
+
+        &__logo {
+            width: 25rem;
+        }
+
+        &__sub-heading {
+            font-size: 4.5rem;
+        }
+
+        &__image {
+            width: 30rem;
+    
+            &--andrew-side {
+                width: 27rem;
+                margin-left: -15.5rem;
+            }
+        }
+
+        &__button-container {
+            width: 50rem
+        }
+
+    }
+}
+
+@include width-800px {
+    .Header {
+
+
+        &__img-container {
+            display: none;
+        }
+
+        &__text-container {
+            width: 100%;
+            text-align: center;
+        }
+
+        &__button-container {
+            width: 100%;
+            text-align: center;
+        }
+
+        &__heading {
+            display: flex;
+            font-size: 8rem;
+            justify-content: center;
+        }
+
+        &__logo {
+            width: 35rem;
+        }
+
+    }
 }

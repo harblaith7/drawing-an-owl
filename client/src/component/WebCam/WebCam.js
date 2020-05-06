@@ -33,14 +33,16 @@ class WebCam extends Component {
     return (
       <div className="WebCam">
         <div className="WebCam__container">
-          <Webcam
-            audio={false}
-            height={550}
-            ref={this.setRef}
-            screenshotFormat="image/jpeg"
-            width={550}
-            videoConstraints={videoConstraints}
-          />
+          <div className="WebCam__camera-container">
+            <Webcam
+              audio={false}
+              height={550}
+              ref={this.setRef}
+              screenshotFormat="image/jpeg"
+              width={550}
+              videoConstraints={videoConstraints}
+            />
+          </div>
           <button className="WebCam__btn" onClick={this.capture}>Become the Owl</button>
           
           <img 

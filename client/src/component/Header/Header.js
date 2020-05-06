@@ -16,12 +16,14 @@ class Header extends Component {
                                 We're <span>Laith</span> & <span>Andrew</span> and we drew
                                 that <span className="yellow">f**king</span> <span>owl</span>!
                             </h3>
+                           <div className="Header__button-container">
                             <button className="Header__btn">
-                                Check it out
-                            </button>
-                            <button className="Header__btn">
-                                About Us
-                            </button>
+                                    Check it out
+                                </button>
+                                <button className="Header__btn">
+                                    About Us
+                                </button>
+                           </div>
                         </div>
                     </div>
                     <div className="Header__img-container">
